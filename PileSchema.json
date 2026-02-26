@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema#",
-  "$id": "https://github.com/ova450/JsonSchemas/PileSchema",
+  "$id": "https://github.com/ova450/JsonSchemes/PileSchema#",
   "title": "Pile",
   "version": "9.4.15",
   "description": "Структура одного пайла (массив из 5 элементов)",
