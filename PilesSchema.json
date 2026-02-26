@@ -14,7 +14,7 @@
       "type": "array",
       "description": "Массив пайлов",
       "items": {
-        "$ref": "PileSchema.json"
+        "$ref": "https://raw.githubusercontent.com/ova450/JsonSchemes/refs/heads/master/PileSchema.json"
       }
     }
   },
