@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/ova450/JsonSchemes/PilesSchema#",
+  "$schema": "https://raw.githubusercontent.com/ova450/JsonSchemes/refs/heads/master/PilesSchema.json#",
   "piles": [
     [
       1,
