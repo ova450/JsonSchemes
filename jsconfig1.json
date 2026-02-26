@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "$id": "https://github.com/ova450/JsonSchemas",
+  "title": "PilesSchema",
+  "version": "9.4.14",
+  "description": "Структура массива пайлов",
+  "examples": "https://github.com/ova450/JsonSchemas/Examples",
+  "comment": "",
+  "private": true,
+  "authors": [
+    {
+      "name": "Vladimir Onoshkp",
+      "nnickname": "ovaataaridotru",
+      "email": "ova450@gmail.com"
+    },
+	"github": "https://github.com/ova450/JsonSchemas"
+  ],
+  //feeds
+  "type": "object",
+  "items": {
+    "type": "object",
+    "properties": {
+      "feedId": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "name": "string",
+      "description": "string",
+      "BaseCommand": {
+        "type": "object",
+        "properties": {
+          "select": {"type": "array",items}
+        }
+      }
+    }
+
+  }
+} 

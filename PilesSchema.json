@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "$id": "https://github.com/ova450/JsonSchemas/PilesSchema",
+  "title": "Piles",
+  "version": "9.4.15",
+  "description": "Корневая структура, содержащая массив пайлов",
+  "type": "object",
+  "properties": {
+    "piles": {
+      "type": "array",
+      "description": "Массив пайлов",
+      "items": {
+        "$ref": "https://github.com/ova450/JsonSchemas/PileSchema"
+      }
+    }
+  },
+  "required": ["piles"],
+  "additionalProperties": false,
+  "comment": "Корневой объект содержит только одно обязательное поле 'piles'."
+}

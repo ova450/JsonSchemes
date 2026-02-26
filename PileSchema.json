@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "$id": "https://github.com/ova450/JsonSchemas/PileSchema",
+  "title": "Pile",
+  "version": "9.4.15",
+  "description": "Структура одного пайла (массив из 5 элементов)",
+  "type": "array",
+  "items": [
+    {
+      "type": "integer",
+      "minimum": 1,
+      "description": "ID пайла"
+    },
+    {
+      "type": ["string", "null"],
+      "enum": ["vendor_", "category_", "", null],
+      "description": "Поле для фильтрации: 'vendor_', 'category_', пустая строка или null"
+    },
+    {
+      "type": "string",
+      "enum": ["AND", "OR"],
+      "description": "Первый логический оператор"
+    },
+    {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "description": "Массив целых чисел (могут быть отрицательными)"
+    },
+    {
+      "type": "string",
+      "enum": ["AND", "OR"],
+      "description": "Второй логический оператор"
+    }
+  ],
+  "minItems": 5,
+  "maxItems": 5,
+  "additionalItems": false,
+  "comment": "Пайл всегда состоит строго из 5 элементов в заданном порядке."
+}

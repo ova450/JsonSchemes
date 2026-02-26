@@ -1,0 +1,50 @@
+{
+  "$schema": "https://github.com/ova450/JsonSchemas/PileSchema#",
+  "$id": "https://github.com/ova450/JsonSchemas/Examples/Pile#",
+  "title": "Piles",
+  "version": "9.4.14",
+  "description": "Структура массива пайлов",
+  "examples": "https://github.com/ova450/JsonSchemas/Examples",
+  "comment": "",
+  "private": true,
+  "authors": [
+    {
+      "name": "Vladimir Onoshko",
+      "nnickname": "ovaataaridotru",
+      "email": "ova450@gmail.com"
+    },
+    { "github": "https://github.com/ova450/JsonSchemas" }
+  ],
+  {
+    "piles": [
+      [
+        1,
+        "vendor_",
+        "AND",
+        [],
+        "OR"
+      ],
+      [
+        2,
+        "category_",
+        "AND",
+        [ 10, -5 ],
+        "OR"
+      ],
+      [
+        3,
+        "",
+        "AND",
+        [ 100 ],
+        "AND"
+      ],
+      [
+        4,
+        null,
+        "OR",
+        [ -1, -2, -3 ],
+        "OR"
+      ]
+    ]
+  }
+}
